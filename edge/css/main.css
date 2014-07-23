@@ -92,7 +92,7 @@
     .menu-content {}
     .menu-items {list-style:none; margin:0; padding:0;}
     .menu-items > li {border-bottom: 1px solid #ddd;}
-    .menu-items > li > a {text-decoration:none; padding:.75em; border-left: 2px solid #F1F1EF; display:block;}
+    .menu-items > li > a {color:#005daa; text-decoration:none; padding:.75em; border-left: 2px solid #F1F1EF; display:block;}
     .menu-items > li > a:hover {border-left: 2px solid #666;}
     .menu-items > li > a.active {border-left: 2px solid #666;}
 
@@ -103,10 +103,13 @@
     .news-content {padding:1em;}
     .news-items {list-style:none; margin:0; padding:0;}
     .news-items > li {margin:0 0 1.5em 0;}
+    .news-items > li:last-child {margin:0;}
     .news-items > li > h3 {margin:0 0 .5em 0;}
+    .news-items > li > h3 > a {color:#d9531e; text-decoration: none;}
     .news-items > li > p {margin:.5em 0;}
     .news-item-date {}
-    .news-item-link {color:#56aee4;}
+    .news-item-link {color:#0079c1; text-decoration:none;}
+    .news-item-link:after {content: "...";}
 
     /* Events */
     .events {font-size:.9em; background:#eee; border-radius: 6px 6px 0px 0px; overflow:hidden;}
@@ -114,11 +117,14 @@
     .events-header > h2 {margin:0;}
     .events-content {padding:1em;}
     .events-items {list-style:none; margin:0; padding:0;}
-    .events-items > li {}
-    .events-date {}
-    .events-month {}
-    .events-day {}
-    .events-year {}
+    .events-items > li {margin:0 0 1em 0;}
+    .events-items > li:last-child {margin:0;}
+    .events-items > li > p {margin:0;}
+    .event-date {text-transform:uppercase; display:block;}
+    .event-month {color:#0079c1;}
+    .event-day {color:#005daa; font-weight:800;}
+    .event-year {display:none;}
+    .event-title {color:#d9531e; font-size:1.3em; text-decoration:none;}
     
     /* Breadcrumbs */
     .breadcrumbs {padding:.5em 0;border-bottom:1px solid #ccc;}
@@ -162,8 +168,8 @@
     .search-button {background:none; border:none; float:right; position:absolute; right:.5em; top:.5em;}
 
     /* Button */
-    .button {color:#fff; text-decoration:none; max-width:300px; padding:.75em; background:#0062A9; border-radius:4px; display:inline-block;}
-    .button:hover {background:#0079c1;}
+    .button {color:#fff; text-decoration:none; max-width:300px; padding:.75em; background:#0062A9 url('../img/btn.png') left no-repeat; border-radius:4px; display:inline-block; transition:background ease .5s;}
+    .button:hover {background:#0079c1 url('../img/btn.png') right no-repeat;}
 
 
 /*************/
