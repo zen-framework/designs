@@ -23,27 +23,14 @@
     #navbar-content {padding:1em; background:#005daa; box-shadow:inset 0px 0px 0px 4px rgba(255,255,255,0.25); border-radius:10px;}
     #navbar-content a {color:#fff; text-decoration:none;}
 
-    /* Hero */
-    #hero {}
-    #hero-color {}
-    #hero-content {}
-
-    /* Front */
-    #front {}
-    #front-content {}
-
-    /* Back */
-    #back {}
-    #back-content {}
+    /* Core */
+    #core {}
+    #core-content {}
 
     /* Site Footer */
-    #site-footer {background:#eee; padding:2em 0;}
-    #site-footer-content {}
-    #site-footer-content h3 {color:#CC0000; font-weight:lighter;}
-
-    /* Footer */
-    #footer {}
+    #footer {background:#eee; padding:2em 0;}
     #footer-content {}
+    #footer-content h3 {color:#CC0000; font-weight:lighter;}
 
 
 /***********/
@@ -150,16 +137,16 @@
     .card-content {}
 
     /* Link List */
-    .link-list {list-style:none; margin:0; padding:0;}
-    .link-list > li {padding:.5em 0;}
-    .link-list > li > a {color:#333; text-decoration:none;}
-    .link-list > li > a:hover {}
+    .list {list-style:none; margin:0; padding:0;}
+    .list > li {padding:.5em 0;}
+    .list > li > a {color:#333; text-decoration:none;}
+    .list > li > a:hover {}
 
     /* Link Chain */
-    .link-chain {}
-    .link-chain > li {}
-    .link-chain > li > a {}
-    .link-chain > li > a:hover {}
+    .chain {}
+    .chain > li {}
+    .chain > li > a {}
+    .chain > li > a:hover {}
     
     /* Search */
     .search {border-bottom:1px solid #ccc; position:relative; overflow:hidden;}
@@ -219,7 +206,7 @@
     #navbar,
     .hero-content,
     #core,
-    #site-footer-content {max-width:1200px; margin:0 auto;}
+    #footer-content {max-width:1200px; margin:0 auto;}
 
     /* Header */
     #header-title {float:left;}
