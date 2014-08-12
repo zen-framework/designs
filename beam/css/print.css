@@ -1,0 +1,24 @@
+@media print {
+    
+    /**********/
+    /* LAYOUT */
+    /**********/
+
+    /* Navbar */
+    #navbar {display:none;}
+
+    /* Footer */
+    #footer {display:none;}
+
+
+    /***********/
+    /* MODULES */
+    /***********/
+
+    /* Menu */
+    .menu {display:none;}
+
+    /* Search */
+    .search {display:none;}
+
+}
